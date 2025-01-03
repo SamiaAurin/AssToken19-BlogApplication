@@ -64,7 +64,7 @@ Then go to: http://localhost:8000/admin/ . Create a Group and assign them access
 
 ## 2. API Endpoints
 
-- http://localhost:8000/users/ : View All Users
-- http://localhost:8000/users/<int:pk>/ , Example: http://localhost:8000/users/1/ : View Specific Users
-- http://localhost:8000/posts/ : View All Posts
-- http://localhost:8000/posts/<int:pk>/ , Example: http://localhost:8000/posts/1/ : View/Update/Delete Only Own Posts. 
+- users/ : One can log in from this endpoint and View All Users.
+- users/<int:pk>/ , Example: http://localhost:8000/users/1/ : View Specific Users.
+- posts/ : View All Posts.
+- posts/<int:pk>/ , Example: http://localhost:8000/posts/1/ : View/Update/Delete Only Own Posts. 
