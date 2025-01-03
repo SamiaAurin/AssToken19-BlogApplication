@@ -8,7 +8,7 @@
 ---
 
 ## Overview  
-This is a Blog Application using Django REST Framework where there will be admin/spueruser who will create blog post users and assign them to create, update and delete their own post as well as only viewing other user's posts. The PowerPoint Slides of this project is here: https://docs.google.com/presentation/d/168ZLDkJCQ66C36hx2Kjv3ZbdtGBFlz16IMFwwkhjcP0/edit?usp=sharing
+This is a Blog Application using Django REST Framework where there will be admin/spueruser who will create blog post users and assign them to create, update and delete their own post as well as only viewing other user's posts. The PowerPoint Slides of this project from where you can understand the API Endpoints is here: https://docs.google.com/presentation/d/168ZLDkJCQ66C36hx2Kjv3ZbdtGBFlz16IMFwwkhjcP0/edit?usp=sharing
 
 ---
 
