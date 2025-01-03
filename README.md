@@ -8,7 +8,7 @@
 ---
 
 ## Overview  
-This is a Blog Application using Django REST Framework where there will be admin/spueruser who will create blog post users and assign them to create, update and delete their own post as well as only viewing other user's posts. The PowerPoint Slides of this project from where you can understand the API Endpoints is here: https://docs.google.com/presentation/d/168ZLDkJCQ66C36hx2Kjv3ZbdtGBFlz16IMFwwkhjcP0/edit?usp=sharing
+This is a Blog Application using Django REST Framework where there will be admin/superuser who will create blog post users and assign them to create, update and delete their own post as well as only viewing other user's posts. The PowerPoint Slides of this project from where you can understand the API Endpoints is here: https://docs.google.com/presentation/d/168ZLDkJCQ66C36hx2Kjv3ZbdtGBFlz16IMFwwkhjcP0/edit?usp=sharing
 
 ---
 
@@ -47,7 +47,7 @@ cd blog
 python manage.py migrate
 python manage.py runserver
 ```
-Then go to: http://localhost:8000/users/
+Then go to: http://localhost:8000/users/ .
 To Log in follow the next steps.
 
 --- 
@@ -64,7 +64,7 @@ Then go to: http://localhost:8000/admin/ . Create a Group and assign them access
 
 ## 2. API Endpoints
 
-- users/ : One can log in from this endpoint and View All Users.
-- users/<int:pk>/ , Example: http://localhost:8000/users/1/ : View Specific Users.
-- posts/ : View All Posts.
-- posts/<int:pk>/ , Example: http://localhost:8000/posts/1/ : View/Update/Delete Only Own Posts. 
+- **users/** , Example: http://localhost:8000/users : One can log in from this endpoint and View All Users.
+- **users/<int:pk>/** , Example: http://localhost:8000/users/1/ : View Specific Users.
+- **posts/** , Example: http://localhost:8000/posts : View All Posts.
+- **posts/<int:pk>/** , Example: http://localhost:8000/posts/1/ : View/Update/Delete Only Own Posts. 
