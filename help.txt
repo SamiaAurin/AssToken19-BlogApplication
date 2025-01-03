@@ -1,0 +1,15 @@
+
+Go to the link : http://localhost:8000/api-auth/register/  and in the `Content` field write this.
+
+
+{
+    "username":"newuser",
+    "email":"newuser@example.com",
+    "password":"securepassword"
+}
+
+{
+    "username":"bb",
+    "email":"bb@example.com",
+    "password":"12345"
+}

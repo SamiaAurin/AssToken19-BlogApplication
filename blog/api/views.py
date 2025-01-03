@@ -6,6 +6,7 @@ from rest_framework import permissions
 from api.permissions import IsOwnerOrReadOnly
 
 
+
 class PostList(generics.ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = serializers.PostSerializer

@@ -23,6 +23,4 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     path('', include('api.urls')),
 
-    # Redirect root URL to properties sign-up page
-    #path('', RedirectView.as_view(pattern_name='api:signup'), name='home'),
 ]
