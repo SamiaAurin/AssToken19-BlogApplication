@@ -45,7 +45,13 @@ venv\Scripts\activate
 ```bash
 cd blog
 python manage.py migrate
+python manage.py runserver
 ```
+Then go to: http://localhost:8000/users/
+To Log in follow the next steps.
+
+--- 
+
 # Usage 
 
 ## 1. Create a Superuser
